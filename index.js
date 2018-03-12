@@ -15,6 +15,7 @@ function addToCart(item) {
  var cart = getCart()
  cart.push(newItem)
  setCart(cart)
+ console.log(price)
  return `${item} has been added to your cart.`
 }
 
